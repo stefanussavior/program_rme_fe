@@ -1,0 +1,8 @@
+.register-flexbox-form {
+  display: flexbox;
+  flex-direction: column;
+}
+
+.register-form {
+  text-align: center;
+}
