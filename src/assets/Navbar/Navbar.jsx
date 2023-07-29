@@ -29,36 +29,6 @@ export default function Navbar() {
           <a href="/register">Register</a>
         </div>
       </div>
-
-      <div className="p1">
-        <h2>responsive navbar</h2>
-        <p>Resize navbar</p>
-      </div>
-
-      <div className="p1">
-        <h2>responsive navbar</h2>
-        <p>Resize navbar</p>
-      </div>
-      <div className="p1">
-        <h2>responsive navbar</h2>
-        <p>Resize navbar</p>
-      </div>
-      <div className="p1">
-        <h2>responsive navbar</h2>
-        <p>Resize navbar</p>
-      </div>
-      <div className="p1">
-        <h2>responsive navbar</h2>
-        <p>Resize navbar</p>
-      </div>
-      <div className="p1">
-        <h2>responsive navbar</h2>
-        <p>Resize navbar</p>
-      </div>
-      <div className="p1">
-        <h2>responsive navbar</h2>
-        <p>Resize navbar</p>
-      </div>
     </>
   );
 }
