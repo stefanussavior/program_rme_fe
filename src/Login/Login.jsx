@@ -13,7 +13,13 @@ export default function Login() {
         <div className="login-flexbox-left">
           1
           <a href="/" className="login-back">
-            <i className="fa fa-arrow-left" aria-hidden="true"></i>
+            <i
+              className="fa fa-arrow-left"
+              style={{
+                backgroundColor: "transparent",
+              }}
+              aria-hidden="true"
+            ></i>
           </a>
         </div>
         <div className="login-flexbox-right">
@@ -61,11 +67,14 @@ export default function Login() {
                 >
                   Submit
                 </button>
-                <h4>Other Login </h4>
                 <div className="login-gmail">
-                  <span className="label-signin">Sign In With : </span>
+                  <span className="label-signin">
+                    Login dengan Opsi lain :{" "}
+                  </span>
+                  <br />
+                  <br />
                   <div className="customBtn">
-                    <GoogleOAuthProvider clientId="">
+                    <GoogleOAuthProvider clientId="251913067029-p4ogicgj2da5p3d4l582n0hvj46lgqgb.apps.googleusercontent.com">
                       <GoogleLogin
                         onSuccess={(credentialResponse) => {
                           console.log(credentialResponse);

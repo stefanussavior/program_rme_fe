@@ -6,7 +6,8 @@
 }
 
 .login-flexbox-left {
-  background-color: white;
+  background-color: blue;
+  color: white;
   padding: 10px;
   flex: 50%;
 }
@@ -27,7 +28,8 @@
 
 input[type="text"] {
   background-color: #888;
-  width: 200px;
+  width: 20rem;
+  height: 2rem;
   padding: 10px;
   border: 0;
   border-radius: 10px 10px 10px 10px;
@@ -35,7 +37,8 @@ input[type="text"] {
 
 input[type="password"] {
   background-color: #888;
-  width: 200px;
+  width: 20rem;
+  height: 2rem;
   padding: 10px;
   border: 0;
   border-radius: 10px 10px 10px 10px;
